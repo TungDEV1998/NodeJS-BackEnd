@@ -1,0 +1,21 @@
+# GET http://localhost:9000/products HTTP/1.1
+# content-type: application/json
+
+# GET http://localhost:9000/orders  HTTP/1.1
+# content-type: application/json
+GET http://localhost:9000/orders/questions?status=WAITING&fromDate=2023-03-21  HTTP/1.1
+content-type: application/json
+
+
+# GET http://localhost:9000/employees HTTP/1.1
+# content-type: application/json
+
+# GET http://localhost:9000/customers HTTP/1.1
+# content-type: application/json
+
+# GET http://localhost:9000/categories HTTP/1.1
+# content-type: application/json
+
+# GET http://localhost:9000/action HTTP/1.1
+# content-type: application/json
+

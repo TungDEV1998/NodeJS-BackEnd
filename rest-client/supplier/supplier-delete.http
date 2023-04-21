@@ -1,0 +1,15 @@
+# DELETE http://localhost:9000/products/22 HTTP/1.1
+# content-type: application/json
+
+
+DELETE http://localhost:9000/suppliers/641c54d225c2a8f7df87dec2 HTTP/1.1
+content-type: application/json
+
+# DELETE http://localhost:9000/employees/1 HTTP/1.1
+# content-type: application/json
+
+# DELETE http://localhost:9000/customers/1 HTTP/1.1
+# content-type: application/json
+
+# DELETE http://localhost:9000/categories/1 HTTP/1.1
+# content-type: application/json

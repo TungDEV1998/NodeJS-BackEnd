@@ -1,0 +1,48 @@
+PATCH http://localhost:9000/customers/6418f9574a05f7dd3d20442c HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Nguyễn",
+    "lastName": " Quỳnh",
+    "email": "quynh123@gmail.com",
+    "phoneNumber": "0827033595",
+    "address": "Quangtri, VN",
+    "birthday": "2000-02-01"
+   
+}
+
+# PATCH   http://localhost:9000/suppliers/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+
+# PATCH   http://localhost:9000/employees/2 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+
+# PATCH   http://localhost:9000/customers/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+# PATCH   http://localhost:9000/categories/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "Fan",
+#     "description": "Đồ gia dụng"
+# }
+
+

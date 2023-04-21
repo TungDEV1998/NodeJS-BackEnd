@@ -1,0 +1,12 @@
+
+GET http://localhost:9000/customers HTTP/1.1
+content-type: application/json
+
+
+
+
+# GET http://localhost:9000/customers/6418ee71695619ee88123bf9 HTTP/1.1
+# content-type: application/json
+
+
+

@@ -1,0 +1,15 @@
+
+
+PATCH   http://localhost:9000/employees/641914ee695619ee88123c25 HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "phuc ",
+    "lastName": "trump",
+    "phoneNumber": "0913533444",
+    "address": "22 Della Cove",
+    "birthday": "1979-04-22",
+    "email": "phuc@gmail.com"
+}
+
+

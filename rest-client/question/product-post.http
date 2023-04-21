@@ -1,0 +1,51 @@
+POST http://localhost:9000/products HTTP/1.1
+content-type: application/json
+
+{
+    "name": "rog zephryus Laptops",
+    "price": 232,
+    "discount": 39,
+    "stock": 1203,
+    "categoryId": "6418ecd7695619ee88123bd5",
+    "SupplierId" : "641a4a5c31d32e2838d74369"
+}
+
+# POST http://localhost:9000/suppliers HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : " Samsung",
+#     "email" : "samsung@gmail.com",
+#     "country" : "Korean"
+
+# }
+
+# POST http://localhost:9000/employees HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : " Samsung",
+#     "email" : "samsung@gmail.com",
+#     "gender" : "male"
+
+# }
+
+
+# POST http://localhost:9000/customers HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : " Samsung",
+#     "email" : "samsung@gmail.com",
+#     "address" : "Korean"
+
+# }
+
+# POST http://localhost:9000/categories HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "Fan",
+#     "description" : "Đồ gia dụng"
+
+# }

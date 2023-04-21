@@ -1,0 +1,7 @@
+
+
+# GET  http://localhost:9000/employees/641914ee695619ee88123c17 HTTP/1.1
+# content-type: application/json
+
+GET  http://localhost:9000/employees/profile HTTP/1.1
+content-type: application/json

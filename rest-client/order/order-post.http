@@ -1,0 +1,25 @@
+POST http://localhost:9000/orders HTTP/1.1
+content-type: application/json
+
+{   
+    "orderDetails": [
+        {
+         "productId": "641b0dfdb5b1ca7f1713e8e6",
+         "price": 100,
+         "discount": 10,
+         "quantity": 1
+        },
+        {
+         "productId": "641b0dfdb5b1ca7f1713e8e8",
+         "price": 60,
+         "discount": 5,
+         "quantity": 3
+        }
+    ],
+    "customerId": "6418ee71695619ee88123bef",
+    "employeeId" : "641914ee695619ee88123c17" 
+}
+
+# "employeeId": "641914ee695619ee88123c17",
+# "customerId": "6418ee71695619ee88123bef"
+

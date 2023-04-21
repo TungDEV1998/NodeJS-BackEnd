@@ -1,0 +1,47 @@
+PATCH   http://localhost:9000/products/22 HTTP/1.1
+content-type: application/json
+
+{
+    "name": "rog zephryus G15-3070ti Laptops",
+      "price": "asdas",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "discount": "asdasd"
+      
+}
+
+# PATCH   http://localhost:9000/suppliers/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+
+# PATCH   http://localhost:9000/employees/2 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+
+# PATCH   http://localhost:9000/customers/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+# PATCH   http://localhost:9000/categories/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "Fan",
+#     "description": "Đồ gia dụng"
+# }
+
+

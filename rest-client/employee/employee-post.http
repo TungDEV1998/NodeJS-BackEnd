@@ -1,0 +1,12 @@
+
+POST http://localhost:9000/employees HTTP/1.1
+content-type: application/json
+
+ {  
+  "firstName": "Nhan Vien",
+  "lastName": "F",
+  "email": "Roderick_Grant@gmail.com",
+  "phoneNumber": "0913599444",
+  "password": "123456",
+  "address": "04 Ha Huy tap"
+}

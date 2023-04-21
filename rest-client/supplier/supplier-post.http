@@ -1,0 +1,47 @@
+# POST http://localhost:9000/products HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Samsung z-Fold 4",
+#     "price": 2200
+# }
+
+POST http://localhost:9000/suppliers HTTP/1.1
+content-type: application/json
+
+{
+    "name" : " Huy Hoang mart",
+    "email" : "huyhoangmart@gmail.com",
+    "address" : "Hanoi, VN"
+
+}
+
+# POST http://localhost:9000/employees HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : " Samsung",
+#     "email" : "samsung@gmail.com",
+#     "gender" : "male"
+
+# }
+
+
+# POST http://localhost:9000/customers HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : " Samsung",
+#     "email" : "samsung@gmail.com",
+#     "address" : "Korean"
+
+# }
+
+# POST http://localhost:9000/categories HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "Fan",
+#     "description" : "Đồ gia dụng"
+
+# }

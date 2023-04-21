@@ -1,0 +1,8 @@
+
+# GET http://localhost:9000/suppliers/641a4a5c31d32e2838d74366 HTTP/1.1
+# content-type: application/json
+GET http://localhost:9000/suppliers HTTP/1.1
+content-type: application/json
+
+
+

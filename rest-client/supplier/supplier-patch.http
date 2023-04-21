@@ -1,0 +1,42 @@
+# PATCH   http://localhost:9000/products/6 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Iphone 14 ProMax 512GB",
+#     "email": "iphone14@gmail.com"
+# }
+
+PATCH   http://localhost:9000/suppliers/641c5499cdf30686600e2430 HTTP/1.1
+content-type: application/json
+
+{
+    "phoneNumber": "0917955173"
+}
+
+
+# PATCH   http://localhost:9000/employees/2 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+
+# PATCH   http://localhost:9000/customers/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name": "Oppo",
+#     "email": "oppo@gmail.com"
+# }
+
+# PATCH   http://localhost:9000/categories/1 HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "Fan",
+#     "description": "Đồ gia dụng"
+# }
+
+

@@ -1,0 +1,11 @@
+
+
+PATCH http://localhost:9000/categories/6418ecd7695619ee88123bd4 HTTP/1.1
+content-type: application/json
+
+{
+    "name" : "Men's",
+    "description": "Men's item "
+}
+
+

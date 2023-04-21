@@ -1,0 +1,29 @@
+
+
+// 1. Hiển thị tất cả các mặt hàng có giảm giá <= 10%
+
+GET http://localhost:9000/questions/question/1?discount=10 HTTP/1.1
+content-type: application/json
+
+// 1b. Hiển thị tất cả các mặt hàng có giảm giá <= 10%,
+#  và chi tiết danh mục, nhà cung cấp
+
+# GET http://localhost:9000/questions/question/1b?discount=3 HTTP/1.1
+# content-type: application/json
+
+
+// 2. Hiển thị tất cả các mặt hàng có tồn kho <= 5 
+
+# GET http://localhost:9000/questions/question/2?stock=3 HTTP/1.1
+# content-type: application/json
+
+// 3. Hiển thị tất cả các mặt hàng có 
+//Giá bán sau khi đã giảm giá <= 100.000
+
+# GET http://localhost:9000/questions/question/3?discountPrice=3 HTTP/1.1
+# content-type: application/json
+
+# GET http://localhost:9000/questions HTTP/1.1
+# content-type: application/json
+
+

@@ -1,0 +1,3 @@
+
+DELETE http://localhost:9000/employees/641914ee695619ee88123c26 HTTP/1.1
+content-type: application/json
